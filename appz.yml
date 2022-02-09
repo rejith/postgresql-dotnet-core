@@ -27,6 +27,6 @@ properties:
    DB_NAME: dotnet
    DB_PASSWORD:
       vault: POSTGRESQL_DOTNET_PASSWORD
-   ASPNETCORE_ENVIRONMENT: Development
+   #ASPNETCORE_ENVIRONMENT: Development
    DLL: PostgreSqlDotnetCore.dll
    revision: 27
