@@ -22,7 +22,7 @@ deploy:
     
 properties:
    DB_SERVER: pgconnect-0-2
-   DB_PORT: 5000
+   DB_PORT: '5000'
    DB_USERNAME: dotnet
    DB_NAME: dotnet
    DB_PASSWORD:
