@@ -9,8 +9,8 @@ build:
     build_file: none
     args:
       BUILD_DIR: /src
-      PROJECT_PATH: /src/PostgreSqlDotnetCore/PostgreSqlDotnetCore.csproj
-      NUGET_CONFIG: /src/Nuget.Config
+      PROJECT_PATH: /PostgreSqlDotnetCore/PostgreSqlDotnetCore.csproj
+      NUGET_CONFIG: /Nuget.Config
       sonarqube: disabled
     output_files: output/*.zip
     image_template: dotnet-3.1
